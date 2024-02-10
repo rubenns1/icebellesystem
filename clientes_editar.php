@@ -24,5 +24,6 @@
     }
     catch(Exception $exception)
     {
+        echo $exception;
         echo "Falha!";
     }
